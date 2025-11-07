@@ -32,8 +32,8 @@ Una vez tengas Poetry y Git, sigue estos pasos:
 1. **Clona el repositorio:**
    ```bash
    git init
-   git clone https://github.com/Jinerson/control_versiones.git
-   cd control_versiones
+   git clone https://github.com/Jinerson/proyectos.git
+   cd proyectos
    ```
 
 2. **Instala las dependencias:**
@@ -105,7 +105,7 @@ GITHUB_REPO_URL=https://github.com/tu_usuario/tu_repositorio.git
 Una vez que la instalación y la configuración estén completas, sigue estos pasos para ejecutar el controlador de versiones:
 
 ```bash
-poetry run python src/proyecto_1/main.py
+poetry run python main.py
 ```
 
 ---
@@ -120,11 +120,7 @@ Asegúrate de que tu archivo **`.gitignore`** en la raíz del proyecto contenga 
 # Archivos de configuración de entorno (CRUCIAL para seguridad)
 .env
 
-# Carpetas de entorno de desarrollo
-.vscode/
-
 # Directorios y archivos generados por Python
-src/modules/__pycache__/
 src/__pycache__/
 
 # Directorio de entorno virtual de Poetry
